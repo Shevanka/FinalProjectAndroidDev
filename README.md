@@ -53,6 +53,7 @@ Design → Implementation → Testing → Refinement
 
 The project follows a modular separation of concerns:
 
+```text
 lib/
 │
 ├── screens/        → UI screens (Page-level widgets)
@@ -62,6 +63,7 @@ lib/
 ├── utils/          → Helpers / constants
 │
 └── main.dart       → Application entry point
+```
 
 ### Design Principles Applied:
 - Stateless vs Stateful separation
